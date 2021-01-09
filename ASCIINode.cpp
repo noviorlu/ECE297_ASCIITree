@@ -29,7 +29,7 @@ void ACSIINode::insertStreetName(const string& streetName, const int& street_id)
         cptr = cptr->next_char[idx];
     }
 }
-
+//code useless
 vector<int> ACSIINode::getPrefixId(const string& prefix) {
     //special case where prefix is ""
     if (0 == prefix.length()) {
